@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.ebsenergiasolar.com.br/sitemap.xml
