@@ -24,7 +24,7 @@ Para mudar cores/fonte: `css/base.css` (`:root`). Para mudar o WhatsApp: `js/sim
 1. Troque o domínio `https://www.ebsenergiasolar.com.br/` (canonical, og:url, og:image, JSON-LD, sitemap.xml, robots.txt) pelo domínio real.
 2. Adicione fotos reais na pasta `img/` (o site já procura estes nomes; sem a foto, aparece um fundo ilustrado):
    - `hero.jpg` (fundo do topo, 1600x900+), `fachada.jpg` (sobre), `loja.jpg` (como funciona), `sistema.jpg` (On/Off grid)
-   - `residencial.jpg`, `comercial.jpg`, `rural.jpg`, `usina-solo.jpg` (cards de soluções, proporção 4:3)
+   - `residencial.jpg`, `comercial.jpg`, `telhado-ceramico.jpg`, `casas-sobrados.jpg` (cards de soluções, já incluídas)
    - `projeto-1.jpg` ... `projeto-8.jpg` (galeria "Projetos": a seção só aparece se pelo menos 3 fotos existirem)
 3. Confirme com o cliente: dias/horário de funcionamento, financiamento (condições) e cidades atendidas.
 4. Registre o site no Google Search Console e coloque o link no Perfil da Empresa no Google.
