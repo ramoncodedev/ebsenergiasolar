@@ -91,3 +91,4 @@ h2 em{font-style:normal;color:var(--amber)}
 .acc__item.is-open .acc__btn::after{transform:translateY(-30%) rotate(-135deg)}
 .acc__body{grid-column:2;grid-row:2;display:none;background:#fff;border:1px solid var(--amber);border-top:0;border-radius:0 0 12px 12px;padding:0 18px 18px;color:var(--muted);font-size:15px}
 .acc__item.is-open .acc__body{display:block}
+.about__img.ph--tall{aspect-ratio:3/4}
