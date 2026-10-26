@@ -37,7 +37,7 @@
 }
 @media (max-width:620px){
   .container{width:calc(100% - 32px)}
-  .header__inner{height:64px}
+  .header__inner{height:68px}
   .brand__text{font-size:16px}
   .brand__text strong{font-size:19px}
   .hero__actions .btn{width:100%}
@@ -67,4 +67,8 @@
     linear-gradient(180deg,rgba(14,38,64,.86) 0%,rgba(14,38,64,.80) 100%),
     url("../img/hero.jpg") 72% center/cover no-repeat,
     linear-gradient(160deg,#0E2640,#16406f)}
+}
+
+@media (max-width:620px){
+  .brand__logo{height:54px}
 }

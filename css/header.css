@@ -6,8 +6,10 @@
 .topbar a{text-decoration:none}
 .topbar a:hover{color:#fff}
 .header{position:sticky;top:0;z-index:100;background:#fff;box-shadow:0 1px 0 var(--line)}
-.header__inner{display:flex;align-items:center;justify-content:space-between;height:72px}
+.header__inner{display:flex;align-items:center;justify-content:space-between;height:80px}
 .brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--navy)}
+.brand__logo{display:block;height:64px;width:auto}
+.brand--light .brand__logo{height:84px;background:#fff;border-radius:12px;padding:6px}
 .brand__mark{width:40px;height:40px;flex:none}
 .brand__text{font-weight:500;font-size:18px;letter-spacing:-.02em;color:var(--navy)}
 .brand__text strong{font-weight:800;font-size:22px}
