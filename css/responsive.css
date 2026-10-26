@@ -11,7 +11,7 @@
   .dark-panel__grid{grid-template-columns:1fr 1fr}
   .dark-panel__art{display:none}
   .dark-panel__grid>.glass:nth-of-type(n){grid-column:auto;grid-row:auto}
-  .gallery{grid-template-columns:repeat(3,1fr)}
+  .gallery{grid-template-columns:repeat(3,minmax(0,1fr))}
 }
 @media (max-width:900px){
   body{font-size:16.5px}
@@ -54,7 +54,7 @@
   .sim__result{grid-template-columns:1fr 1fr}
   .sim__result strong{font-size:18px}
   .pay__grid{grid-template-columns:1fr}
-  .gallery{grid-template-columns:repeat(2,1fr);grid-auto-rows:150px}
+  .gallery{grid-template-columns:repeat(2,minmax(0,1fr));grid-auto-rows:150px}
   .contact__actions .btn{width:100%}
   .contact__map,.contact__map iframe{min-height:300px}
   .footer__inner{grid-template-columns:1fr}
@@ -74,5 +74,6 @@
 }
 
 @media (max-width:620px){
-  .gallery--few{grid-template-columns:1fr}
+  .gallery--few{grid-template-columns:minmax(0,1fr);grid-auto-rows:auto;gap:14px}
+  .gallery--few .g{aspect-ratio:4/3;height:auto}
 }
