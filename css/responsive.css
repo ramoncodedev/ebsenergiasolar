@@ -72,3 +72,7 @@
 @media (max-width:620px){
   .brand__logo{height:54px}
 }
+
+@media (max-width:620px){
+  .gallery--few{grid-template-columns:1fr}
+}

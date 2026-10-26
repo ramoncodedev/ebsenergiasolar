@@ -19,7 +19,7 @@
     var done = function (loaded) {
       if (loaded) ok++; else fig.remove();
       if (--pending === 0) {
-        if (ok >= 3) section.classList.remove('is-hidden');
+        if (ok >= 3) { section.classList.remove('is-hidden'); if (ok <= 5) gallery.classList.add('gallery--few'); }
         else if (navLink) navLink.classList.add('is-hidden');
       }
     };
