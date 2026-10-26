@@ -92,3 +92,5 @@ h2 em{font-style:normal;color:var(--amber)}
 .acc__body{grid-column:2;grid-row:2;display:none;background:#fff;border:1px solid var(--amber);border-top:0;border-radius:0 0 12px 12px;padding:0 18px 18px;color:var(--muted);font-size:15px}
 .acc__item.is-open .acc__body{display:block}
 .about__img.ph--tall{aspect-ratio:3/4}
+.how__img.ph--tall{aspect-ratio:3/5;align-self:start}
+.how__img img{object-position:50% 30%}
